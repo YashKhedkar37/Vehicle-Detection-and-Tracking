@@ -105,8 +105,8 @@ python train.py --img 3840 --batch 2 --epochs 60 --data /path/to/custom_data.yam
 
 The model detects vehicles in images with high resolution (3840x2160) with high accuracy. Here are some examples of the output:
 
-![TrainingData](NewFolder/train_batch0.jpg)
-![TrainingData](NewFolder/train_batch2.jpg)
+![TrainingData](newFolder/train_batch0.jpg)
+![TrainingData](newFolder/train_batch2.jpg)
 
 
 ## Running Tests
