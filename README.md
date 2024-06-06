@@ -105,6 +105,8 @@ python train.py --img 3840 --batch 2 --epochs 60 --data /path/to/custom_data.yam
 
 The model detects vehicles in images with high resolution (3840x2160) with high accuracy. Here are some examples of the output:
 
+![TrainingData](NewFolder/train_batch0.jpg)
+![TrainingData](NewFolder/train_batch2.jpg)
 
 
 ## Running Tests
@@ -122,6 +124,7 @@ The output will be saved in the runs/detect/exp directory.
 
 
 
+
 - To run inference on a video using the trained model:
 ```bash
 python detect.py --weights /path/to/best.pt --source /path/to/video.mp4 --img 640 --conf 0.25
@@ -130,3 +133,7 @@ python detect.py --weights /path/to/best.pt --source /path/to/video.mp4 --img 64
 View Results:
 The output video with annotations will be saved in the runs/detect/exp directory.
 
+
+## Results
+The random image after processing:
+![Tracked_Vehicles](newFolder/checking.png)
